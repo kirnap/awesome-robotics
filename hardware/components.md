@@ -16,6 +16,7 @@
 - [ODrive](https://github.com/odriverobotics/ODrive) - High-performance brushless motor controller firmware and tooling, a common choice for DIY actuators and robot joints (MIT; current boards are closed hardware).
 - [Open Dynamic Robot Initiative](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) - Torque-controlled actuator modules plus Solo and Bolt legged robots with CAD, BOM and assembly docs (BSD-3-Clause, designs complete since 2022).
 - [SimpleFOC](https://github.com/simplefoc/Arduino-FOC) - Arduino-compatible field-oriented control library with matching open driver shields for BLDC and stepper motors (MIT).
+- [SimpleFOCMini](https://github.com/simplefoc/SimpleFOCMini) - Compact 8 A BLDC driver board on the DRV8316 with published schematics, Gerbers and BOM, fully compatible with the SimpleFOC library (MIT).
 
 ## Servo SDKs
 

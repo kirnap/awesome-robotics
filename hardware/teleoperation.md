@@ -20,6 +20,7 @@ The SO-101 and Koch v1.1 leader arms ship with their follower arms; see [arms.md
 
 ## Handheld interfaces and exoskeletons
 
+- [DexUMI](https://github.com/real-stanford/DexUMI) - Hand exoskeletons for the Inspire Hand and XHand that turn human motion into dexterous demonstrations; CAD and priced BOM, hardware license unstated (code MIT). 🖨️
 - [Universal Manipulation Interface](https://github.com/real-stanford/universal_manipulation_interface) - Handheld GoPro gripper and pipeline for collecting demonstrations without a robot; design files via the hardware guide, no separate hardware license (code MIT). 🖨️
 
 ## VR, phone and game controllers
