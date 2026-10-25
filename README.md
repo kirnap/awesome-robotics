@@ -50,7 +50,8 @@ awesome-robotics/
 ├── software/                 Code that makes robots move and learn
 │   ├── learning-frameworks.md  Imitation learning, RL, end-to-end training
 │   ├── policies-and-foundation-models.md  VLAs, world models, pretrained checkpoints
-│   └── middleware-and-control.md  ROS, kinematics, planning, SDKs
+│   ├── middleware-and-control.md  ROS, kinematics, planning, SDKs, visualization
+│   └── perception.md           Pose estimation, grasp detection
 ├── datasets/                 Open robot data and formats
 └── community/                Courses, tutorials, Discords, events
 ```
@@ -76,7 +77,10 @@ awesome-robotics/
 
 ### Humanoids and hands → [hardware/humanoids-and-hands.md](hardware/humanoids-and-hands.md)
 
+- [Berkeley Humanoid Lite](https://github.com/HybridRobotics/Berkeley-Humanoid-Lite) - Open-source 3D-printed humanoid designed to be built for under $5,000. 🖨️
 - [HopeJR](https://github.com/TheRobotStudio/HOPEJr) - Open humanoid arm and dexterous hand from The Robot Studio, supported by LeRobot. 🧩 🖨️
+- [LEAP Hand](https://github.com/leap-hand/LEAP_Hand_API) - Low-cost 3D-printed anthropomorphic hand from CMU, widely used in dexterous manipulation research. 🖨️
+- [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini) - 3D-printed open biped inspired by Disney BDX droids, walking with RL policies trained in MuJoCo. 🖨️ 💵
 
 ---
 
@@ -129,6 +133,11 @@ awesome-robotics/
 - [Pinocchio](https://github.com/stack-of-tasks/pinocchio) - Fast rigid-body dynamics and kinematics library. Used by reBot-DevArm.
 - [Drake](https://github.com/RobotLocomotion/drake) - Model-based design and verification toolbox for robotics from MIT and TRI.
 
+### Perception → [software/perception.md](software/perception.md)
+
+- [FoundationPose](https://github.com/NVlabs/FoundationPose) - NVIDIA's unified 6D pose estimation and tracking for novel objects.
+- [GraspNet](https://github.com/graspnet/graspnet-baseline) - End-to-end 6-DoF grasp detection from point clouds with a billion-grasp benchmark.
+
 ---
 
 ## 📦 Datasets
@@ -145,9 +154,11 @@ awesome-robotics/
 
 > Learn, ask, meet. → [Browse community resources](community/README.md)
 
+- [Hugging Face Robotics Course](https://huggingface.co/learn/robotics-course) - Free hands-on course on robot learning built around LeRobot.
 - [XLeRobot Docs](https://xlerobot.readthedocs.io) - Step-by-step build, assembly, software and simulation guides.
 - [Seeed Studio Robotics Wiki](https://wiki.seeedstudio.com/robotics_page/) - Tutorials for reBot-DevArm, LeRobot integration and Isaac Sim.
 - [Hugging Face LeRobot Hub](https://huggingface.co/lerobot) - Models, datasets and community spaces.
+- [LeRobot Discord](https://discord.gg/q8Dzzpym3f) - The official community server for questions, show-and-tell and hardware help.
 
 ---
 

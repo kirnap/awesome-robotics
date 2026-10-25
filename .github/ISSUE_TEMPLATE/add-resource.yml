@@ -34,6 +34,7 @@ body:
         - software/learning-frameworks.md
         - software/policies-and-foundation-models.md
         - software/middleware-and-control.md
+        - software/perception.md
         - datasets/README.md
         - community/README.md
         - Not sure / needs a new section

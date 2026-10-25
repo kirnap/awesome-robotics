@@ -13,7 +13,9 @@
 
 ## Model collections
 
+- [awesome-robot-descriptions](https://github.com/robot-descriptions/awesome-robot-descriptions) - Curated list of open URDF, MJCF and Xacro robot descriptions, organized by robot type.
 - [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie) - Curated, high-quality MJCF models of popular arms, hands, quadrupeds, humanoids and mobile robots, maintained by DeepMind.
+- [robot_descriptions.py](https://github.com/robot-descriptions/robot_descriptions.py) - Python package that downloads and loads hundreds of robot descriptions into Pinocchio, MuJoCo, PyBullet or yourdfpy with one call.
 
 ## Digital twins of open robots
 

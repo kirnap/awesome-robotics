@@ -28,7 +28,8 @@ Every resource lives in exactly one topic file. If it spans categories (LeRobot 
 | | `robot-models.md` | URDF / MJCF / USD assets, digital twins |
 | `software/` | `learning-frameworks.md` | Training pipelines for imitation learning, RL, VLA fine-tuning |
 | | `policies-and-foundation-models.md` | Specific policy architectures, pretrained checkpoints, world models |
-| | `middleware-and-control.md` | ROS, kinematics and dynamics, motion planning, hardware SDKs |
+| | `middleware-and-control.md` | ROS, kinematics and dynamics, motion planning, hardware SDKs, visualization |
+| | `perception.md` | Pose estimation, grasp detection, segmentation and other perception models for robots |
 | `datasets/` | `README.md` | Robot datasets and data formats |
 | `community/` | `README.md` | Courses, tutorials, books, chat servers, events, newsletters |
 

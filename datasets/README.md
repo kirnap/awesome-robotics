@@ -18,8 +18,12 @@
 
 ## Large-scale datasets
 
+- [AgiBot World](https://github.com/OpenDriveLab/AgiBot-World) - Over one million trajectories from 100 real robots across 217 tasks in household, retail and industrial settings.
+- [BridgeData V2](https://rail-berkeley.github.io/bridgedata/) - 60k trajectories on a low-cost WidowX arm across 24 environments, a core pretraining set for Octo and OpenVLA.
 - [DROID](https://droid-dataset.github.io/) - Large-scale in-the-wild robot manipulation dataset: 76k demonstrations across 564 scenes and 86 tasks.
 - [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Over one million real robot trajectories spanning 22 embodiments from 21 institutions, the training corpus behind RT-X and OpenVLA.
+- [RH20T](https://rh20t.github.io/) - 110k contact-rich manipulation sequences with force-torque and multi-view video across multiple robot arms.
+- [RoboMIND](https://x-humanoid-robomind.github.io/) - 107k multi-embodiment demonstrations across single-arm, dual-arm and humanoid platforms.
 
 ## Community datasets
 
