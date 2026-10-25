@@ -66,6 +66,7 @@ awesome-robotics/
 - [reBot-DevArm](https://github.com/Seeed-Projects/reBot-DevArm) - 6-DOF + gripper open source arm from Seeed Studio in two variants (B601-DM: 1.5 kg payload, B601-RS: 2.5 kg). ROS 1/2, LeRobot, Pinocchio, Isaac Sim, Python SDK. 🧩 🏭
 - [SO-ARM100 / SO-101](https://github.com/TheRobotStudio/SO-ARM100) - The standard low-cost 3D-printed leader/follower arm pair used across the LeRobot ecosystem. 🧩 🖨️ 💵
 - [Koch v1.1](https://github.com/jess-moss/koch-v1-1) - Low-cost 3D-printed arm, one of the original LeRobot reference designs. 🧩 🖨️ 💵
+- [OpenArm](https://github.com/enactic/OpenArm) - 7-DOF backdrivable bimanual humanoid arm for contact-rich research, with ROS 2, MuJoCo and LeRobot support. Hardware CERN-OHL-S-2.0. 🧩
 
 ### Mobile robots → [hardware/mobile-robots.md](hardware/mobile-robots.md)
 

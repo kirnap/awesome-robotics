@@ -23,6 +23,7 @@
 
 ## Humanoid-style arms
 
+- [OpenArm](https://github.com/enactic/OpenArm) - 7-DOF backdrivable humanoid arm from Enactic for contact-rich physical AI research, $6,500 for a full bimanual system. ROS 2 with ros2_control and MoveIt, MuJoCo models, LeRobot support, dora-rs teleop. Hardware CERN-OHL-S-2.0, software Apache-2.0. [Docs](https://docs.openarm.dev). 🧩
 - [HopeJR](https://github.com/TheRobotStudio/HOPEJr) - Open humanoid arm and dexterous hand from The Robot Studio, supported by LeRobot. See also [humanoids-and-hands.md](humanoids-and-hands.md). 🧩 🖨️
 
 ## See also
