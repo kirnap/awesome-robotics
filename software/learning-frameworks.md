@@ -1,6 +1,6 @@
 # Learning Frameworks
 
-> End-to-end pipelines for collecting data, training policies and deploying them to real robots.
+> End-to-end pipelines for collecting data, training policies and deploying them to robots.
 
 [← Software](README.md) · [← Awesome Robotics](../README.md)
 
@@ -10,22 +10,22 @@
 
 - [End-to-end frameworks](#end-to-end-frameworks)
 - [Imitation learning toolkits](#imitation-learning-toolkits)
-- [Reinforcement learning on real robots](#reinforcement-learning-on-real-robots)
+- [Reinforcement learning](#reinforcement-learning)
 
 ## End-to-end frameworks
 
-- [LeRobot](https://github.com/huggingface/lerobot) - Hugging Face's PyTorch library for real-world robot learning. Record with leader arms or gamepads, store in LeRobotDataset, train imitation learning (ACT, Diffusion, VQ-BeT), RL (HIL-SERL, TDMPC) or VLAs (Pi0, Pi0.5, SmolVLA, GR00T N1.7), evaluate on LIBERO and MetaWorld, deploy to SO-100, LeKiwi, Koch, HopeJR, Reachy2, Unitree G1, OpenARM, reBot B601 and more. Apache-2.0. 🧩
+- [LeRobot](https://github.com/huggingface/lerobot) - Hugging Face's PyTorch library for real-world robot learning: recording, LeRobotDataset, imitation, RL and VLA training, drivers for many robots (Apache-2.0). 🧩
 
 ## Imitation learning toolkits
 
-- [robomimic](https://github.com/ARISE-Initiative/robomimic) - Stanford's framework for learning from demonstrations with standardized datasets, algorithms (BC, BC-RNN, Diffusion Policy) and robosuite integration.
+- [robomimic](https://github.com/ARISE-Initiative/robomimic) - Stanford framework for learning from demonstrations with standardized datasets, offline algorithms and robosuite integration (MIT).
 
-## Reinforcement learning on real robots
+## Reinforcement learning
 
-- [HIL-SERL](https://github.com/rail-berkeley/hil-serl) - Human-in-the-loop sample-efficient RL that learns real-world manipulation in an hour or two, from UC Berkeley RAIL. Integrated into LeRobot. 🧩
-- [Isaac Lab](https://github.com/isaac-sim/IsaacLab) - Massively parallel RL and imitation learning on GPU simulation, with sim-to-real workflows. See also [simulators.md](../simulation/simulators.md).
-- [SERL](https://github.com/rail-berkeley/serl) - Sample-efficient RL software suite for real-world manipulation, the predecessor of HIL-SERL.
-- [unitree_rl_gym](https://github.com/unitreerobotics/unitree_rl_gym) - Unitree's official RL training and sim-to-real pipeline for Go2, H1 and G1 on Isaac Gym and MuJoCo.
+- [HIL-SERL](https://github.com/rail-berkeley/hil-serl) - Human-in-the-loop sample-efficient RL that learns real-world manipulation in one to two hours, from UC Berkeley RAIL; integrated into LeRobot (Apache-2.0). 🧩
+- [Isaac Lab](https://github.com/isaac-sim/IsaacLab) - NVIDIA's robot learning framework on Isaac Sim for massively parallel RL and imitation learning with sim-to-real workflows (BSD-3-Clause).
+- [SERL](https://github.com/rail-berkeley/serl) - Sample-efficient RL software suite for real-world manipulation, the predecessor of HIL-SERL (Apache-2.0).
+- [unitree_rl_gym](https://github.com/unitreerobotics/unitree_rl_gym) - Unitree's RL training and sim-to-real pipeline for Go2, H1 and G1 on Isaac Gym and MuJoCo (BSD-3-Clause, last update mid-2025).
 
 ## See also
 

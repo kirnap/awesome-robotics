@@ -14,16 +14,16 @@
 
 ## Formats
 
-- [LeRobotDataset](https://huggingface.co/lerobot) - Hugging Face's dataset format: synchronized MP4 video or images plus Parquet tables for states and actions, versioned and hosted on the Hub. The default format for everything in this list that trains with LeRobot. 🧩
+- [LeRobotDataset](https://huggingface.co/docs/lerobot/lerobot-dataset-v3) - Hugging Face's format for training data: synchronized MP4 video plus Parquet state and action tables, versioned and hosted on the Hub (Apache-2.0). 🧩
 
 ## Large-scale datasets
 
-- [AgiBot World](https://github.com/OpenDriveLab/AgiBot-World) - Over one million trajectories from 100 real robots across 217 tasks in household, retail and industrial settings.
-- [BridgeData V2](https://rail-berkeley.github.io/bridgedata/) - 60k trajectories on a low-cost WidowX arm across 24 environments, a core pretraining set for Octo and OpenVLA.
-- [DROID](https://droid-dataset.github.io/) - Large-scale in-the-wild robot manipulation dataset: 76k demonstrations across 564 scenes and 86 tasks.
-- [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Over one million real robot trajectories spanning 22 embodiments from 21 institutions, the training corpus behind RT-X and OpenVLA.
-- [RH20T](https://rh20t.github.io/) - 110k contact-rich manipulation sequences with force-torque and multi-view video across multiple robot arms.
-- [RoboMIND](https://x-humanoid-robomind.github.io/) - 107k multi-embodiment demonstrations across single-arm, dual-arm and humanoid platforms.
+- [AgiBot World](https://github.com/OpenDriveLab/AgiBot-World) - Manipulation data from 100 AgiBot robots across 100+ scenarios, from 100k trajectories in the Alpha release (data CC BY-NC-SA 4.0, noncommercial).
+- [BridgeData V2](https://rail-berkeley.github.io/bridgedata/) - 53k language-annotated trajectories on a WidowX arm across 24 environments, a core pretraining set for Octo and OpenVLA (CC BY 4.0).
+- [DROID](https://droid-dataset.github.io/) - 76k in-the-wild manipulation demonstrations across 564 scenes and 86 tasks, distributed via TensorFlow Datasets; no license stated on the project site.
+- [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Over one million real robot trajectories spanning 22 embodiments, the training corpus behind RT-X and OpenVLA; licenses vary by contributing dataset.
+- [RH20T](https://rh20t.github.io/) - 110k contact-rich manipulation sequences with force-torque and multi-view video; one subset CC BY-SA 4.0, the other noncommercial.
+- [RoboMIND](https://x-humanoid-robomind.github.io/) - 107k demonstrations across 479 tasks on Franka, UR5e, AgileX dual-arm and humanoid platforms (Apache-2.0 on Hugging Face).
 
 ## Community datasets
 

@@ -14,14 +14,14 @@
 
 ## Documentation hubs
 
-- [Hugging Face LeRobot Hub](https://huggingface.co/lerobot) - Models, datasets, community spaces and the entry point to LeRobot documentation.
+- [LeRobot Documentation](https://huggingface.co/docs/lerobot/index) - Official LeRobot docs covering installation, supported robots, dataset format, policies and tutorials.
 - [Seeed Studio Robotics Wiki](https://wiki.seeedstudio.com/robotics_page/) - Tutorials for reBot-DevArm covering assembly, ROS 2, LeRobot integration and Isaac Sim.
 - [XLeRobot Docs](https://xlerobot.readthedocs.io) - Step-by-step bill of materials, 3D printing, assembly, software and simulation guides for XLeRobot.
 
 ## Courses and textbooks
 
-- [Hugging Face Robotics Course](https://huggingface.co/learn/robotics-course) - Free hands-on course on robot learning built around LeRobot, from classical robotics to VLAs.
-- [Modern Robotics](https://github.com/NxRLab/ModernRobotics) - Code library and companion to Lynch and Park's free textbook on kinematics, dynamics, planning and control.
+- [Hugging Face Robotics Course](https://huggingface.co/learn/robotics-course/en/unit0/1) - Free course connecting robotics foundations with LeRobot workflows; units 0 to 2 are published, RL, imitation and foundation model units are announced.
+- [Modern Robotics code library](https://github.com/NxRLab/ModernRobotics) - Python, MATLAB and Mathematica implementations accompanying Lynch and Park's free textbook on kinematics, dynamics and control (MIT).
 - [Robotic Manipulation](https://manipulation.csail.mit.edu/) - Russ Tedrake's free MIT course and textbook on perception, planning and control for manipulation, with Drake notebooks.
 - [Underactuated Robotics](https://underactuated.csail.mit.edu/) - Russ Tedrake's free MIT course and textbook on algorithms for walking, running, swimming, flying and manipulation.
 
@@ -31,9 +31,10 @@
 
 ## Sibling awesome lists
 
-- [awesome-robotics](https://github.com/kiloreux/awesome-robotics) - Broad list of robotics courses, books, software and companies.
-- [awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries) - Comprehensive catalog of robotics libraries for dynamics, planning, optimization and simulation.
-- [best-of-robot-simulators](https://github.com/knmcguire/best-of-robot-simulators) - Ranked list of 180 robot simulators. See [simulators.md](../simulation/simulators.md).
+- [awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries) - Catalog of robotics libraries for dynamics, planning, optimization and simulation (CC0-1.0).
+- [best-of-robot-simulators](https://github.com/knmcguire/best-of-robot-simulators) - Metrics-ranked index of 180 robot simulators across 12 domains; its README states that list updates are currently stopped (CC-BY-SA-4.0).
+
+See also [awesome-robot-descriptions](../simulation/robot-models.md) for URDF and MJCF sources.
 
 ## Events and competitions
 

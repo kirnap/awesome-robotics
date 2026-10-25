@@ -11,11 +11,11 @@
 
 ## Object pose estimation
 
-- [FoundationPose](https://github.com/NVlabs/FoundationPose) - NVIDIA's unified 6D object pose estimation and tracking model that works on novel objects, with or without a CAD model.
+- [FoundationPose](https://github.com/NVlabs/FoundationPose) - NVIDIA's unified 6D object pose estimation and tracking for novel objects, with or without a CAD model (NVIDIA source code license, noncommercial).
 
 ## Grasp detection
 
-- [GraspNet](https://github.com/graspnet/graspnet-baseline) - End-to-end 6-DoF grasp pose detection from point clouds, with the GraspNet-1Billion dataset and benchmark.
+- [GraspNet](https://github.com/graspnet/graspnet-baseline) - End-to-end 6-DoF grasp pose detection from point clouds with the GraspNet-1Billion benchmark (academic noncommercial license).
 
 ## See also
 

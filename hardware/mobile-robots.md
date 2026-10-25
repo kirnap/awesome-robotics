@@ -1,6 +1,6 @@
 # Mobile Robots
 
-> Wheeled bases, mobile manipulators and rovers with open designs.
+> Wheeled bases, mobile manipulators and rovers with published design files.
 
 [← Hardware](README.md) · [← Awesome Robotics](../README.md)
 
@@ -13,17 +13,17 @@
 
 ## Mobile manipulators
 
-- [Bambot](https://github.com/timqian/bambot) - Open-source low-cost bimanual mobile robot built around SO-100 arms. 🧩 🖨️ 💵
-- [XLeRobot](https://github.com/Vector-Wangel/XLeRobot) - Practical dual-arm mobile household robot from around $660, built on LeRobot, SO-100/101, LeKiwi and Bambot. Optional stereo or RealSense head camera, Raspberry Pi compute, brushless base motor. Ships URDFs, keyboard / Xbox / Joy-Con / Quest 3 teleop, an RL environment and a browser MuJoCo demo. [Docs](https://xlerobot.readthedocs.io). 🧩 🖨️ 💵 🏠
+- [Bambot](https://github.com/timqian/bambot) - Low-cost bimanual mobile robot built from SO-100 arms with a browser-based control stack and published BOM (Apache-2.0, last update mid-2025). 🖨️ 💵
+- [XLeRobot](https://github.com/Vector-Wangel/XLeRobot) - Dual-arm mobile household robot built on LeRobot, SO-101 and LeKiwi, with URDFs, VR and gamepad teleop and a browser MuJoCo demo (Apache-2.0). [Docs](https://xlerobot.readthedocs.io). 🧩 🖨️ 💵 🏠
 
 ## Mobile bases
 
-- [LeKiwi](https://github.com/SIGRobotics-UIUC/LeKiwi) - Low-cost omnidirectional base carrying an SO-100 arm, natively supported by LeRobot and the foundation of XLeRobot. 🧩 🖨️ 💵
+- [LeKiwi](https://github.com/SIGRobotics-UIUC/LeKiwi) - Low-cost omnidirectional base carrying an SO-100 arm, natively supported by LeRobot and the foundation of XLeRobot (Apache-2.0). 🧩 🖨️ 💵
 
 ## See also
 
 - [Arms](arms.md) for the manipulators mounted on these bases.
-- [Robot models](../simulation/robot-models.md) for the simulation assets of XLeRobot and LeKiwi.
+- [Robot models](../simulation/robot-models.md) for simulation assets.
 
 ---
 
