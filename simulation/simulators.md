@@ -9,6 +9,7 @@
 - [Physics engines](#physics-engines)
 - [Learning-oriented platforms](#learning-oriented-platforms)
 - [ROS-native simulators](#ros-native-simulators)
+- [Curated lists](#curated-lists)
 
 ## Physics engines
 
@@ -23,6 +24,10 @@
 ## ROS-native simulators
 
 - [Gazebo](https://github.com/gazebosim/gz-sim) - The long-running open-source robotics simulator with first-class ROS 2 integration.
+
+## Curated lists
+
+- [best-of-robot-simulators](https://github.com/knmcguire/best-of-robot-simulators) - Ranked list of 180 robot simulators across 12 domains (generic, aerial, maritime, automotive, space, AI training) scored by GitHub and package metrics. No longer updated but still the broadest index.
 
 ## See also
 
