@@ -1,0 +1,75 @@
+name: 🤖 Suggest a resource
+description: Know an open source robotics project that belongs here? Tell us and we will add it.
+title: "Add: <project name>"
+labels: ["resource"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      placeholder: XLeRobot
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical link
+      description: Source repository or official docs. No shortlinks.
+      placeholder: https://github.com/Vector-Wangel/XLeRobot
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Where does it belong?
+      options:
+        - hardware/arms.md
+        - hardware/mobile-robots.md
+        - hardware/humanoids-and-hands.md
+        - hardware/teleoperation.md
+        - hardware/components.md
+        - simulation/simulators.md
+        - simulation/environments-and-benchmarks.md
+        - simulation/robot-models.md
+        - software/learning-frameworks.md
+        - software/policies-and-foundation-models.md
+        - software/middleware-and-control.md
+        - datasets/README.md
+        - community/README.md
+        - Not sure / needs a new section
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: One-sentence description
+      description: Under 160 characters, present tense, no marketing adjectives.
+      placeholder: Dual-arm mobile home robot built on LeRobot, from around $660.
+    validations:
+      required: true
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: Tags
+      options:
+        - label: 🧩 LeRobot-compatible
+        - label: 🖨️ 3D-printable
+        - label: 💵 Under $1,000
+        - label: 🏠 Household
+        - label: 🏭 Industrial-grade
+  - type: input
+    id: license
+    attributes:
+      label: License
+      placeholder: Apache-2.0 (software), CERN-OHL-W-2.0 (hardware)
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: I searched the repo and this is not already listed
+          required: true
+        - label: The project is open source and actively maintained or clearly finished
+          required: true
