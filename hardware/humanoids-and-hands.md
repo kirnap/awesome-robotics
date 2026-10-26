@@ -21,6 +21,7 @@
 ## Bipeds
 
 - [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini) - 3D-printed biped inspired by Disney's BDX droids with Onshape CAD, BOM and RL walking policies; assembly guide marked incomplete (code Apache-2.0). 🖨️ 💵
+- [Upkie](https://github.com/upkie/upkie) - Wheeled biped built from mjbots actuators and a Raspberry Pi, with step-by-step build docs, BOM and PyBullet Gymnasium environments (Apache-2.0). 🖨️
 
 ## Quadrupeds
 

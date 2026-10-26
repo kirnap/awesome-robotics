@@ -22,6 +22,7 @@
 
 - [Brax](https://github.com/google/brax) - Differentiable, massively parallel rigid-body physics in JAX for fast RL training on TPUs and GPUs (Apache-2.0).
 - [Genesis](https://github.com/Genesis-Embodied-AI/genesis-world) - Generative, differentiable physics platform for robotics and embodied AI built for very high simulation throughput (Apache-2.0).
+- [MuJoCo Warp](https://github.com/google-deepmind/mujoco_warp) - GPU-optimized MuJoCo for NVIDIA hardware developed within the Newton project, with a batch ray-tracing renderer and MJX interoperability (Apache-2.0).
 
 ## Simulation platforms
 

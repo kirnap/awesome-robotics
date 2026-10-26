@@ -16,6 +16,7 @@
 
 - [dora](https://github.com/dora-rs/dora) - Low-latency dataflow middleware in Rust with Python nodes, used by OpenArm for teleoperation and data collection (Apache-2.0).
 - [ROS 2](https://github.com/ros2/ros2) - The Robot Operating System: message passing, tooling and a vast driver ecosystem, supported by most hardware in this list. [Docs](https://docs.ros.org).
+- [ros2_control](https://github.com/ros-controls/ros2_control) - Hardware interface abstraction and controller manager for ROS 2 robots, used by MoveIt 2 and most ROS 2 arm drivers (Apache-2.0).
 - [Zenoh](https://github.com/eclipse-zenoh/zenoh) - Eclipse pub/sub and query protocol from microcontrollers to cloud, available as a ROS 2 middleware option (Apache-2.0 or EPL-2.0).
 
 ## Kinematics and dynamics
@@ -31,6 +32,7 @@
 - [MoveIt 2](https://github.com/moveit/moveit2) - The standard ROS 2 motion planning framework for manipulators, used by OpenArm and reBot-DevArm (BSD-3-Clause).
 - [Nav2](https://github.com/ros-navigation/navigation2) - The ROS 2 navigation stack for mobile robots, from mapping to behavior trees (Apache-2.0, BSD-3-Clause and LGPL-2.1 by package).
 - [OMPL](https://github.com/ompl/ompl) - The Open Motion Planning Library of sampling-based planners that powers MoveIt (BSD-3-Clause).
+- [Ruckig](https://github.com/pantor/ruckig) - Real-time jerk-limited trajectory generation from any starting state; the community edition is MIT, local waypoint planning is Pro-only.
 
 ## Hardware SDKs
 
