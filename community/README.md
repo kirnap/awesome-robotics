@@ -22,6 +22,7 @@
 
 - [Hugging Face Robotics Course](https://huggingface.co/learn/robotics-course/en/unit0/1) - Free course connecting robotics foundations with LeRobot workflows; units 0 to 2 are published, RL, imitation and foundation model units are announced.
 - [Modern Robotics code library](https://github.com/NxRLab/ModernRobotics) - Python, MATLAB and Mathematica implementations accompanying Lynch and Park's free textbook on kinematics, dynamics and control (MIT).
+- [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) - Readable Python implementations of localization, mapping, SLAM, path planning and control algorithms with a free companion textbook (MIT).
 - [Robotic Manipulation](https://manipulation.csail.mit.edu/) - Russ Tedrake's free MIT course and textbook on perception, planning and control for manipulation, with Drake notebooks.
 - [Underactuated Robotics](https://underactuated.csail.mit.edu/) - Russ Tedrake's free MIT course and textbook on algorithms for walking, running, swimming, flying and manipulation.
 

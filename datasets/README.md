@@ -15,6 +15,7 @@
 ## Formats
 
 - [LeRobotDataset](https://huggingface.co/docs/lerobot/lerobot-dataset-v3) - Hugging Face's format for training data: synchronized MP4 video plus Parquet state and action tables, versioned and hosted on the Hub (Apache-2.0). 🧩
+- [MCAP](https://github.com/foxglove/mcap) - Container format and libraries for logging timestamped robot messages, the default rosbag2 storage since ROS 2 Iron; for logs, not training datasets (MIT).
 
 ## Large-scale datasets
 

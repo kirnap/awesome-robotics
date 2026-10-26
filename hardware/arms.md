@@ -17,6 +17,7 @@
 - [Koch v1.1](https://github.com/jess-moss/koch-v1-1) - 3D-printed Dynamixel leader/follower arm pair, one of the original LeRobot reference designs (Apache-2.0, design complete since 2024). 🧩 🖨️ 💵
 - [Low-Cost Robot Arm](https://github.com/AlexanderKoch-Koch/low_cost_robot) - The original 3D-printed Dynamixel arm with BOM that Koch v1.1 descends from (MIT, design complete since 2024). 🖨️ 💵
 - [OpenMANIPULATOR-X](https://github.com/ROBOTIS-GIT/open_manipulator) - ROBOTIS open-hardware 4-DOF Dynamixel arm with ROS 2 packages, supported by LeRobot as OMX (Apache-2.0). 🧩
+- [PAROL6](https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm) - 6-axis 3D-printed desktop arm from Source Robotics with BOM, STLs, build instructions and control software, all released under GPL-3.0. 🖨️
 - [SO-ARM100 / SO-101](https://github.com/TheRobotStudio/SO-ARM100) - Standard low-cost leader/follower arm pair of the LeRobot ecosystem, with STEP files, priced BOM and assembly guides (Apache-2.0). 🧩 🖨️ 💵
 - [Thor](https://github.com/AngelLM/Thor) - 6-DOF stepper-driven 3D-printed arm with FreeCAD sources, STEP files, BOM and build guides (CC-BY-SA-4.0, design complete, last update 2025). 🖨️ 💵
 
