@@ -1,39 +1,30 @@
 # Components
 
-> Actuators, motor drivers, control boards, cameras and sensors used across open robots.
+> Motor controllers, actuators, servo SDKs, cameras and sensors with published designs.
 
 [← Hardware](README.md) · [← Awesome Robotics](../README.md)
 
 ## Contents
 
-- [Actuators and motor controllers](#actuators-and-motor-controllers)
+- [Motor controllers and actuators](#motor-controllers-and-actuators)
 - [Servo SDKs](#servo-sdks)
-- [Cameras and depth sensors](#cameras-and-depth-sensors)
-- [Tactile sensors](#tactile-sensors)
+- [Sensors and cameras](#sensors-and-cameras)
 
-## Actuators and motor controllers
+## Motor controllers and actuators
 
-- [moteus](https://github.com/mjbots/moteus) - Open-hardware, open-firmware brushless servo controller from mjbots with FOC, CAN-FD and built-in position control, used in many open legged robots.
-- [ODrive](https://github.com/odriverobotics/ODrive) - High-performance brushless motor controller with open firmware and tooling, a default choice for DIY actuators and robot joints.
-- [Open Dynamic Robot Initiative actuators](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) - Fully open, low-cost torque-controlled actuator modules with CAD, BOM and driver electronics.
-- [SimpleFOC](https://github.com/simplefoc/Arduino-FOC) - Arduino-compatible field-oriented control library with matching open-hardware driver shields for gimbal and BLDC motors.
+- [moteus](https://github.com/mjbots/moteus) - Brushless servo controllers from mjbots with published PCB designs and firmware, FOC and CAN-FD, used in Upkie and other open legged robots (Apache-2.0).
+- [ODrive](https://github.com/odriverobotics/ODrive) - High-performance brushless motor controller firmware and tooling, a common choice for DIY actuators and robot joints (MIT; current boards are closed hardware).
+- [Open Dynamic Robot Initiative](https://github.com/open-dynamic-robot-initiative/open_robot_actuator_hardware) - Torque-controlled actuator modules plus Solo and Bolt legged robots with CAD, BOM and assembly docs (BSD-3-Clause, designs complete since 2022).
+- [SimpleFOC](https://github.com/simplefoc/Arduino-FOC) - Arduino-compatible field-oriented control library with matching open driver shields for BLDC and stepper motors (MIT).
 
 ## Servo SDKs
 
-- [Dynamixel SDK](https://github.com/ROBOTIS-GIT/DynamixelSDK) - Official multi-language SDK for the Dynamixel servos behind Koch, OpenMANIPULATOR-X, LEAP Hand and Poppy.
+- [Dynamixel SDK](https://github.com/ROBOTIS-GIT/DynamixelSDK) - Official multi-language SDK for the Dynamixel servos used by Koch, OpenMANIPULATOR-X and LEAP Hand (Apache-2.0).
 
-## Cameras and depth sensors
+## Sensors and cameras
 
-- [Luxonis DepthAI hardware](https://github.com/luxonis/depthai-hardware) - Open hardware design files for the OAK family of stereo depth and AI cameras.
-
-## Tactile sensors
-
-- [DIGIT](https://github.com/facebookresearch/digit-design) - Meta's open-hardware vision-based tactile fingertip sensor, with full design files for low-cost fabrication.
-- [GelSight SDK](https://github.com/gelsightinc/gsrobotics) - Python SDK for GelSight tactile sensors covering image capture, 3D reconstruction and marker tracking.
-
-## See also
-
-- [Arms](arms.md), [Mobile robots](mobile-robots.md) and [Humanoids and hands](humanoids-and-hands.md) for complete builds that use these parts.
+- [DIGIT](https://github.com/facebookresearch/digit-design) - Meta's vision-based tactile fingertip sensor with complete fabrication files; repository archived in 2025 (CC BY-NC 4.0, noncommercial).
+- [OAK hardware](https://github.com/luxonis/oak-hardware) - Luxonis design files for the OAK family of stereo depth and AI cameras (MIT).
 
 ---
 

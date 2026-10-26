@@ -1,30 +1,24 @@
 # Robot Models
 
-> URDF, MJCF and USD assets, plus digital twins of real open robots.
+> URDF, MJCF and USD assets and the tools that load them.
 
 [← Simulation](README.md) · [← Awesome Robotics](../README.md)
-
-**Legend:** 🧩 LeRobot-compatible
 
 ## Contents
 
 - [Model collections](#model-collections)
-- [Digital twins of open robots](#digital-twins-of-open-robots)
 
 ## Model collections
 
-- [awesome-robot-descriptions](https://github.com/robot-descriptions/awesome-robot-descriptions) - Curated list of open URDF, MJCF and Xacro robot descriptions, organized by robot type.
-- [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie) - Curated, high-quality MJCF models of popular arms, hands, quadrupeds, humanoids and mobile robots, maintained by DeepMind.
-- [robot_descriptions.py](https://github.com/robot-descriptions/robot_descriptions.py) - Python package that downloads and loads hundreds of robot descriptions into Pinocchio, MuJoCo, PyBullet or yourdfpy with one call.
+- [awesome-robot-descriptions](https://github.com/robot-descriptions/awesome-robot-descriptions) - Curated list of URDF, MJCF and Xacro robot descriptions organized by robot type (CC0-1.0).
+- [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie) - Curated MJCF models of popular arms, hands, quadrupeds and humanoids maintained by Google DeepMind; each model keeps its upstream license.
+- [robot_descriptions.py](https://github.com/robot-descriptions/robot_descriptions.py) - Loads 200+ robot descriptions into Pinocchio, MuJoCo, PyBullet, yourdfpy and iDynTree in one call; package Apache-2.0, models keep their own licenses.
 
-## Digital twins of open robots
+## Digital twins of robots in this list
 
-- [reBot-DevArm digital twin](https://github.com/Seeed-Projects/reBot-DevArm) - Browser-based MuJoCo twin of the B601-RS with standard and AGV configurations, plus USD models for Isaac Sim. 🧩
-- [XLeRobot simulation](https://github.com/Vector-Wangel/XLeRobot) - URDFs for the full dual-arm mobile robot, keyboard / Xbox / Joy-Con / Quest 3 control scripts, an RL environment and a browser MuJoCo demo. 🧩
-
-## See also
-
-- [Arms](../hardware/arms.md) and [Mobile robots](../hardware/mobile-robots.md) for the physical robots these models describe.
+- [reBot-DevArm](../hardware/arms.md): browser MuJoCo twin and USD models for Isaac Sim.
+- [XLeRobot](../hardware/mobile-robots.md): URDFs, RL environment and browser MuJoCo demo.
+- [Berkeley Humanoid Lite](../hardware/humanoids-and-hands.md): URDF, MJCF and USD exports from Onshape.
 
 ---
 

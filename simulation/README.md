@@ -10,17 +10,19 @@
 |---|---|
 | [simulators.md](simulators.md) | Physics engines and simulation platforms |
 | [environments-and-benchmarks.md](environments-and-benchmarks.md) | Gym environments, task suites and evaluation benchmarks |
-| [robot-models.md](robot-models.md) | URDF / MJCF / USD assets and digital twins of real open robots |
+| [robot-models.md](robot-models.md) | URDF / MJCF / USD collections and loaders |
 
-## Why simulation first
+## Simulation first
 
-Every featured robot in this list ships a digital twin before you buy a single servo:
+The featured robots in this list ship simulation assets alongside their hardware:
 
-| Robot | Simulator | Try it |
+| Robot | Simulator | What ships |
 |---|---|---|
-| [XLeRobot](https://github.com/Vector-Wangel/XLeRobot) | MuJoCo | Browser demo, URDFs, RL environment, VR teleop in sim |
-| [reBot-DevArm](https://github.com/Seeed-Projects/reBot-DevArm) | MuJoCo, Isaac Sim | Zero-install browser digital twin, USD models for Isaac Sim |
-| [LeRobot](https://github.com/huggingface/lerobot) | MuJoCo via gym-aloha, gym-pusht, gym-xarm | Evaluate policies on LIBERO and MetaWorld |
+| [XLeRobot](../hardware/mobile-robots.md) | MuJoCo | Browser demo, URDFs, RL environment, VR teleop in sim |
+| [reBot-DevArm](../hardware/arms.md) | MuJoCo, Isaac Sim | Browser digital twin, USD models |
+| [LeRobot](../software/learning-frameworks.md) | MuJoCo via gym-aloha, gym-pusht | Policy evaluation on LIBERO and MetaWorld |
+
+Robot learning frameworks that sit on top of simulators, such as Isaac Lab, live in [software/learning-frameworks.md](../software/learning-frameworks.md).
 
 ## Contributing
 

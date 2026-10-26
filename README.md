@@ -19,68 +19,76 @@
 
 ## 🚀 Start Here
 
-Three projects that together form a complete, fully open robotics stack. Pick an arm, put it on wheels, train it with imitation learning. Every link below is open source end to end.
+Three projects that together cover learning software, a mobile household robot and a research-grade arm. Each publishes its hardware designs or code under an open license.
 
 | Project | What it is | Why it matters |
 |---|---|---|
-| [**LeRobot**](https://github.com/huggingface/lerobot) 🧩 | Hugging Face's PyTorch library for real-world robot learning: policies, datasets, hardware drivers, teleop. | The de facto open standard for training and sharing robot policies. Supports ACT, Diffusion, Pi0, SmolVLA, GR00T and more. |
-| [**XLeRobot**](https://github.com/Vector-Wangel/XLeRobot) 🧩 🖨️ 💵 🏠 | Dual-arm mobile household robot built on LeRobot, starting around $660. | The cheapest practical path to a mobile manipulator you can actually run in your home. MuJoCo sim included. |
-| [**reBot-DevArm**](https://github.com/Seeed-Projects/reBot-DevArm) 🧩 🏭 | Seeed Studio's 6-DOF + gripper open source arm (B601-DM, B601-RS) with ROS 1/2, LeRobot, Pinocchio and Isaac Sim support. | Industrial-grade repeatability (<0.2 mm) with a fully open hardware and software stack. Hardware under CERN-OHL-W-2.0. |
+| [**LeRobot**](https://github.com/huggingface/lerobot) 🧩 | Hugging Face's PyTorch library for real-world robot learning: policies, datasets, hardware drivers, teleop. | The most widely used open training stack for low-cost robots. Supports ACT, Diffusion, Pi0, SmolVLA, GR00T and more. |
+| [**XLeRobot**](https://github.com/Vector-Wangel/XLeRobot) 🧩 🖨️ 💵 🏠 | Dual-arm mobile household robot built on LeRobot, from $660 per the project's BOM. | A documented, low-cost path to a mobile manipulator with simulation and VR teleop included. |
+| [**reBot-DevArm**](https://github.com/Seeed-Projects/reBot-DevArm) 🧩 🏭 | Seeed Studio's 6-DOF + gripper arm (B601-DM, B601-RS) with ROS 1/2, LeRobot, Pinocchio and Isaac Sim support. | Sub-0.2 mm repeatability per its spec sheet, hardware under CERN-OHL-W-2.0 and software under Apache-2.0. |
 
 **Legend:** 🧩 LeRobot-compatible · 🖨️ 3D-printable · 💵 Under $1,000 · 🏠 Household · 🏭 Industrial-grade
+
+## 🧭 I want to...
+
+| Goal | Start here |
+|---|---|
+| Build my first arm | [hardware/arms.md](hardware/arms.md) |
+| Collect demonstrations | [hardware/teleoperation.md](hardware/teleoperation.md) |
+| Train from demonstrations | [software/learning-frameworks.md](software/learning-frameworks.md) |
+| Test a policy in simulation | [simulation/environments-and-benchmarks.md](simulation/environments-and-benchmarks.md) |
+| Plan and control motion | [software/middleware-and-control.md](software/middleware-and-control.md) |
+| Find robot data | [datasets/README.md](datasets/README.md) |
+| Learn the fundamentals | [community/README.md](community/README.md) |
 
 ---
 
 ## 🗺️ Taxonomy
 
-Every resource lives in exactly one folder. Each folder has a `README.md` index plus topic files.
+Every resource has one canonical entry in a topic file. Each folder has a `README.md` index. The sections below are highlights; the topic files are complete.
 
 ```
 awesome-robotics/
-├── hardware/                 Things you can build or buy, with open designs
+├── hardware/                 Things you can build or buy, with published designs
 │   ├── arms.md                 Robotic arms and manipulators
 │   ├── mobile-robots.md        Wheeled bases and mobile manipulators
 │   ├── humanoids-and-hands.md  Humanoids, legged robots, dexterous hands
-│   ├── teleoperation.md        Leader arms, VR rigs, exoskeletons, gamepads
-│   └── components.md           Actuators, control boards, sensors, cameras
-├── simulation/               Where robots are born before they are built
+│   ├── teleoperation.md        Leader arms, handheld interfaces, exoskeletons, VR
+│   └── components.md           Motor controllers, actuators, servo SDKs, sensors
+├── simulation/               Where robots are tested before they are built
 │   ├── simulators.md           Physics engines and sim platforms
 │   ├── environments-and-benchmarks.md  Gym envs, task suites, benchmarks
-│   └── robot-models.md         URDF / MJCF / USD assets and digital twins
+│   └── robot-models.md         URDF / MJCF / USD collections and loaders
 ├── software/                 Code that makes robots move and learn
 │   ├── learning-frameworks.md  Imitation learning, RL, end-to-end training
 │   ├── policies-and-foundation-models.md  VLAs, world models, pretrained checkpoints
 │   ├── middleware-and-control.md  ROS, kinematics, planning, SDKs, visualization
 │   └── perception.md           Pose estimation, grasp detection
 ├── datasets/                 Open robot data and formats
-└── community/                Courses, tutorials, Discords, events
+└── community/                Courses, textbooks, chat servers, sibling lists, events
 ```
 
 ---
 
 ## 🦾 Hardware
 
-> Open designs you can print, order, assemble and modify. → [Browse all hardware](hardware/README.md)
+> Published designs you can print, order, assemble and modify. → [Browse all hardware](hardware/README.md)
 
 ### Arms → [hardware/arms.md](hardware/arms.md)
 
-- [reBot-DevArm](https://github.com/Seeed-Projects/reBot-DevArm) - 6-DOF + gripper open source arm from Seeed Studio in two variants (B601-DM: 1.5 kg payload, B601-RS: 2.5 kg). ROS 1/2, LeRobot, Pinocchio, Isaac Sim, Python SDK. 🧩 🏭
-- [SO-ARM100 / SO-101](https://github.com/TheRobotStudio/SO-ARM100) - The standard low-cost 3D-printed leader/follower arm pair used across the LeRobot ecosystem. 🧩 🖨️ 💵
-- [Koch v1.1](https://github.com/jess-moss/koch-v1-1) - Low-cost 3D-printed arm, one of the original LeRobot reference designs. 🧩 🖨️ 💵
-- [OpenArm](https://github.com/enactic/OpenArm) - 7-DOF backdrivable bimanual humanoid arm for contact-rich research, with ROS 2, MuJoCo and LeRobot support. Hardware CERN-OHL-S-2.0. 🧩
+- [reBot-DevArm](https://github.com/Seeed-Projects/reBot-DevArm) - 6-DOF + gripper arm with ROS 1/2, LeRobot, Pinocchio and Isaac Sim support (hardware CERN-OHL-W-2.0). 🧩 🏭
+- [SO-ARM100 / SO-101](https://github.com/TheRobotStudio/SO-ARM100) - Standard low-cost 3D-printed leader/follower arm pair of the LeRobot ecosystem. 🧩 🖨️ 💵
+- [OpenArm](https://github.com/enactic/openarm) - 7-DOF backdrivable humanoid arm for contact-rich research (hardware CERN-OHL-S-2.0). 🧩
 
 ### Mobile robots → [hardware/mobile-robots.md](hardware/mobile-robots.md)
 
-- [XLeRobot](https://github.com/Vector-Wangel/XLeRobot) - Dual-arm mobile home robot built on LeRobot, SO-100/101 and LeKiwi, from around $660. 🧩 🖨️ 💵 🏠
+- [XLeRobot](https://github.com/Vector-Wangel/XLeRobot) - Dual-arm mobile home robot built on LeRobot, SO-101 and LeKiwi. 🧩 🖨️ 💵 🏠
 - [LeKiwi](https://github.com/SIGRobotics-UIUC/LeKiwi) - Low-cost omnidirectional mobile base with an SO-100 arm, natively supported by LeRobot. 🧩 🖨️ 💵
-- [Bambot](https://github.com/timqian/bambot) - Open-source low-cost bimanual mobile robot built around SO-100 arms. 🧩 🖨️ 💵
 
-### Humanoids and hands → [hardware/humanoids-and-hands.md](hardware/humanoids-and-hands.md)
+### Humanoids, legged robots and hands → [hardware/humanoids-and-hands.md](hardware/humanoids-and-hands.md)
 
-- [Berkeley Humanoid Lite](https://github.com/HybridRobotics/Berkeley-Humanoid-Lite) - Open-source 3D-printed humanoid designed to be built for under $5,000. 🖨️
-- [HopeJR](https://github.com/TheRobotStudio/HOPEJr) - Open humanoid arm and dexterous hand from The Robot Studio, supported by LeRobot. 🧩 🖨️
-- [LEAP Hand](https://github.com/leap-hand/LEAP_Hand_API) - Low-cost 3D-printed anthropomorphic hand from CMU, widely used in dexterous manipulation research. 🖨️
-- [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini) - 3D-printed open biped inspired by Disney BDX droids, walking with RL policies trained in MuJoCo. 🖨️ 💵
+- [Berkeley Humanoid Lite](https://github.com/HybridRobotics/berkeley-humanoid-lite) - Humanoid with 3D-printed cycloidal gearboxes, Onshape CAD and Isaac Lab training code. 🖨️
+- [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini) - 3D-printed biped inspired by Disney's BDX droids, walking with RL policies trained in MuJoCo. 🖨️ 💵
 
 ---
 
@@ -90,22 +98,15 @@ awesome-robotics/
 
 ### Simulators → [simulation/simulators.md](simulation/simulators.md)
 
-- [MuJoCo](https://github.com/google-deepmind/mujoco) - Fast, accurate physics engine from Google DeepMind. Runs in the browser via WebAssembly, which is how XLeRobot and reBot ship zero-install digital twins.
-- [NVIDIA Isaac Sim](https://github.com/isaac-sim/IsaacSim) - GPU-accelerated, photorealistic simulation on Omniverse. reBot-DevArm ships USD models for it.
-- [Isaac Lab](https://github.com/isaac-sim/IsaacLab) - Open-source robot learning framework built on Isaac Sim for massively parallel RL and imitation learning.
-- [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) - Generative physics engine for robotics and embodied AI, built for speed and differentiability.
-- [Gazebo](https://github.com/gazebosim/gz-sim) - The classic open-source robotics simulator, tightly integrated with ROS 2.
+- [MuJoCo](https://github.com/google-deepmind/mujoco) - Fast, accurate physics engine from Google DeepMind; its browser build powers the XLeRobot and reBot digital twins.
+- [NVIDIA Isaac Sim](https://github.com/isaac-sim/IsaacSim) - GPU-accelerated, photorealistic simulation on Omniverse.
+- [Newton](https://github.com/newton-physics/newton) - GPU-accelerated, differentiable physics engine from NVIDIA, Google DeepMind and Disney Research.
 
 ### Environments and benchmarks → [simulation/environments-and-benchmarks.md](simulation/environments-and-benchmarks.md)
 
-- [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO) - Lifelong robot learning benchmark, supported by LeRobot's evaluation pipeline.
-- [MetaWorld](https://github.com/Farama-Foundation/Metaworld) - 50 manipulation tasks for multi-task and meta RL, supported by LeRobot.
-- [gym-aloha](https://github.com/huggingface/gym-aloha) - Bimanual ALOHA tasks in MuJoCo, packaged as a Gymnasium environment for LeRobot. 🧩
-
-### Robot models → [simulation/robot-models.md](simulation/robot-models.md)
-
-- [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie) - Curated, high-quality MJCF models of popular robots, maintained by DeepMind.
-- [XLeRobot Simulation](https://github.com/Vector-Wangel/XLeRobot) - URDFs, keyboard/Xbox/Joy-Con/Quest 3 control scripts, an RL environment and a browser MuJoCo demo. 🧩
+- [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO) - Lifelong robot learning benchmark, supported by LeRobot's evaluation pipeline. 🧩
+- [ManiSkill](https://github.com/mani-skill/ManiSkill) - GPU-parallelized manipulation benchmark on SAPIEN.
+- [MuJoCo Playground](https://github.com/google-deepmind/mujoco_playground) - GPU-accelerated locomotion and manipulation environments with sim-to-real recipes.
 
 ---
 
@@ -115,28 +116,24 @@ awesome-robotics/
 
 ### Learning frameworks → [software/learning-frameworks.md](software/learning-frameworks.md)
 
-- [LeRobot](https://github.com/huggingface/lerobot) - End-to-end robot learning in PyTorch: record data, train ACT / Diffusion / VQ-BeT / TDMPC / HIL-SERL / VLAs, deploy to real hardware. 🧩
-- [HIL-SERL](https://github.com/rail-berkeley/hil-serl) - Human-in-the-loop sample-efficient RL for real robots, from UC Berkeley. Integrated in LeRobot.
+- [LeRobot](https://github.com/huggingface/lerobot) - End-to-end robot learning in PyTorch: record, train ACT / Diffusion / VLAs, deploy to real hardware. 🧩
+- [Isaac Lab](https://github.com/isaac-sim/IsaacLab) - Massively parallel RL and imitation learning on Isaac Sim.
 
 ### Policies and foundation models → [software/policies-and-foundation-models.md](software/policies-and-foundation-models.md)
 
-- [SmolVLA](https://huggingface.co/lerobot/smolvla_base) - Hugging Face's compact vision-language-action model, trained on community LeRobot data and runnable on consumer GPUs. 🧩
-- [openpi (Pi0 / Pi0.5)](https://github.com/Physical-Intelligence/openpi) - Open weights and code for Physical Intelligence's VLA models.
-- [Isaac GR00T](https://github.com/NVIDIA/Isaac-GR00T) - NVIDIA's open foundation model for generalist humanoid robot reasoning and skills.
-- [OpenVLA](https://github.com/openvla/openvla) - 7B open-source vision-language-action model trained on Open X-Embodiment.
-- [ACT](https://github.com/tonyzhaozh/act) - Action Chunking with Transformers, the imitation learning policy behind ALOHA.
-- [Diffusion Policy](https://github.com/real-stanford/diffusion_policy) - Visuomotor policy learning via action diffusion.
+- [SmolVLA](https://huggingface.co/lerobot/smolvla_base) - Hugging Face's 0.5B-parameter VLA, trained on community LeRobot data for consumer GPUs. 🧩
+- [openpi (Pi0 / Pi0.5)](https://github.com/Physical-Intelligence/openpi) - Open weights and code for Physical Intelligence's VLA models. 🧩
+- [ACT](https://github.com/tonyzhaozh/act) - Action Chunking with Transformers, the imitation learning policy behind ALOHA. 🧩
 
 ### Middleware and control → [software/middleware-and-control.md](software/middleware-and-control.md)
 
-- [ROS 2](https://github.com/ros2/ros2) - The Robot Operating System. Supported by reBot-DevArm and most hardware in this list.
-- [Pinocchio](https://github.com/stack-of-tasks/pinocchio) - Fast rigid-body dynamics and kinematics library. Used by reBot-DevArm.
-- [Drake](https://github.com/RobotLocomotion/drake) - Model-based design and verification toolbox for robotics from MIT and TRI.
+- [ROS 2](https://github.com/ros2/ros2) - The Robot Operating System, supported by most hardware in this list.
+- [MoveIt 2](https://github.com/moveit/moveit2) - The standard ROS 2 motion planning framework for manipulators.
+- [Pinocchio](https://github.com/stack-of-tasks/pinocchio) - Fast rigid-body dynamics and kinematics, used by reBot-DevArm.
 
 ### Perception → [software/perception.md](software/perception.md)
 
-- [FoundationPose](https://github.com/NVlabs/FoundationPose) - NVIDIA's unified 6D pose estimation and tracking for novel objects.
-- [GraspNet](https://github.com/graspnet/graspnet-baseline) - End-to-end 6-DoF grasp detection from point clouds with a billion-grasp benchmark.
+- [FoundationPose](https://github.com/NVlabs/FoundationPose) - NVIDIA's unified 6D pose estimation and tracking for novel objects (noncommercial license).
 
 ---
 
@@ -144,9 +141,9 @@ awesome-robotics/
 
 > Open robot data and the formats that make it shareable. → [Browse all datasets](datasets/README.md)
 
-- [LeRobotDataset](https://huggingface.co/lerobot) - Hugging Face's dataset format: synchronized MP4 video plus Parquet state/action tables, thousands of community datasets on the Hub. 🧩
-- [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Over 1M real robot trajectories across 22 embodiments from 21 institutions.
-- [DROID](https://droid-dataset.github.io/) - Large-scale in-the-wild manipulation dataset, 76k demonstrations across 564 scenes.
+- [LeRobotDataset](https://huggingface.co/lerobot) - Hugging Face's dataset format and Hub, with thousands of community datasets. 🧩
+- [Open X-Embodiment](https://robotics-transformer-x.github.io/) - Over one million real robot trajectories across 22 embodiments.
+- [BridgeData V2](https://rail-berkeley.github.io/bridgedata/) - 53k language-annotated WidowX trajectories (CC BY 4.0).
 
 ---
 
@@ -154,11 +151,9 @@ awesome-robotics/
 
 > Learn, ask, meet. → [Browse community resources](community/README.md)
 
-- [Hugging Face Robotics Course](https://huggingface.co/learn/robotics-course) - Free hands-on course on robot learning built around LeRobot.
-- [XLeRobot Docs](https://xlerobot.readthedocs.io) - Step-by-step build, assembly, software and simulation guides.
-- [Seeed Studio Robotics Wiki](https://wiki.seeedstudio.com/robotics_page/) - Tutorials for reBot-DevArm, LeRobot integration and Isaac Sim.
-- [Hugging Face LeRobot Hub](https://huggingface.co/lerobot) - Models, datasets and community spaces.
+- [Hugging Face Robotics Course](https://huggingface.co/learn/robotics-course/en/unit0/1) - Free course connecting robotics foundations with LeRobot workflows.
 - [LeRobot Discord](https://discord.gg/q8Dzzpym3f) - The official community server for questions, show-and-tell and hardware help.
+- [XLeRobot Docs](https://xlerobot.readthedocs.io) and [Seeed Robotics Wiki](https://wiki.seeedstudio.com/robotics_page/) - Build and integration guides for the featured hardware.
 
 ---
 
@@ -172,7 +167,7 @@ Contributions are what make this list awesome. Adding a resource takes under two
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) for the full guidelines, or [open an issue](../../issues/new/choose) if you would rather we add it for you.
 
-**Rules of the list:** open source only (code, CAD or both), actively maintained, and useful to someone other than its author.
+**Rules of the list:** open source only (code, CAD or both, with a stated license), maintained within the last year or clearly complete and usable, and useful to someone other than its author.
 
 ---
 
