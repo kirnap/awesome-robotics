@@ -38,6 +38,7 @@ Three projects that together cover learning software, a mobile household robot a
 | Train from demonstrations | [software/learning-frameworks.md](software/learning-frameworks.md) |
 | Test a policy in simulation | [simulation/environments-and-benchmarks.md](simulation/environments-and-benchmarks.md) |
 | Plan and control motion | [software/middleware-and-control.md](software/middleware-and-control.md) |
+| Map and localize a mobile robot | [SLAM and localization](software/middleware-and-control.md#slam-and-localization) |
 | Find robot data | [datasets/README.md](datasets/README.md) |
 | Learn the fundamentals | [community/README.md](community/README.md) |
 
@@ -62,7 +63,7 @@ awesome-robotics/
 ├── software/                 Code that makes robots move and learn
 │   ├── learning-frameworks.md  Imitation learning, RL, end-to-end training
 │   ├── policies-and-foundation-models.md  VLAs, world models, pretrained checkpoints
-│   ├── middleware-and-control.md  ROS, kinematics, planning, SDKs, visualization
+│   ├── middleware-and-control.md  ROS, kinematics, planning, SLAM, SDKs, visualization
 │   └── perception.md           Pose estimation, grasp detection
 ├── datasets/                 Open robot data and formats
 └── community/                Courses, textbooks, chat servers, sibling lists, events

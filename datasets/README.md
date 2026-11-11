@@ -15,6 +15,7 @@
 ## Formats
 
 - [LeRobotDataset](https://huggingface.co/docs/lerobot/lerobot-dataset-v3) - Hugging Face's format for training data: synchronized MP4 video plus Parquet state and action tables, versioned and hosted on the Hub (Apache-2.0). 🧩
+- [RLDS](https://github.com/google-research/rlds) - Episode and step format used by Open X-Embodiment, with TensorFlow data utilities (Apache-2.0; reference repository archived).
 
 ## Large-scale datasets
 
