@@ -11,7 +11,7 @@
 | [learning-frameworks.md](learning-frameworks.md) | End-to-end pipelines for imitation learning, RL and VLA fine-tuning |
 | [policies-and-foundation-models.md](policies-and-foundation-models.md) | Policy architectures, pretrained checkpoints, world models |
 | [middleware-and-control.md](middleware-and-control.md) | ROS, kinematics and dynamics, motion planning, SLAM, hardware SDKs, visualization |
-| [perception.md](perception.md) | Pose estimation, grasp detection and other perception models for manipulation |
+| [perception.md](perception.md) | Pose estimation, grasp detection, point-cloud processing and 3D reconstruction |
 
 ## The open stack at a glance
 

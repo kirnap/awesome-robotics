@@ -29,7 +29,7 @@ Every resource lives in exactly one topic file. If it spans categories (LeRobot 
 | `software/` | `learning-frameworks.md` | Training pipelines for imitation learning, RL, VLA fine-tuning |
 | | `policies-and-foundation-models.md` | Specific policy architectures, pretrained checkpoints, world models |
 | | `middleware-and-control.md` | ROS, kinematics and dynamics, motion planning, SLAM, hardware SDKs, visualization |
-| | `perception.md` | Pose estimation, grasp detection, segmentation and other perception models for robots |
+| | `perception.md` | Pose estimation, grasp detection, point-cloud processing, 3D reconstruction and segmentation |
 | `datasets/` | `README.md` | Robot datasets and data formats |
 | `community/` | `README.md` | Courses, tutorials, books, chat servers, events, newsletters |
 
