@@ -11,6 +11,7 @@
 
 ## Object pose estimation
 
+- [AprilTag](https://github.com/AprilRobotics/apriltag) - Visual fiducial marker detection and pose estimation with a small C library (BSD-2-Clause).
 - [FoundationPose](https://github.com/NVlabs/FoundationPose) - NVIDIA's unified 6D object pose estimation and tracking for novel objects, with or without a CAD model (NVIDIA source code license, noncommercial).
 
 ## Grasp detection

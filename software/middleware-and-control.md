@@ -1,6 +1,6 @@
 # Middleware and Control
 
-> ROS, kinematics and dynamics libraries, motion planning, hardware SDKs and visualization.
+> ROS, kinematics and dynamics libraries, motion planning, SLAM, hardware SDKs and visualization.
 
 [← Software](README.md) · [← Awesome Robotics](../README.md)
 
@@ -9,6 +9,7 @@
 - [Middleware](#middleware)
 - [Kinematics and dynamics](#kinematics-and-dynamics)
 - [Motion planning and navigation](#motion-planning-and-navigation)
+- [SLAM and localization](#slam-and-localization)
 - [Hardware SDKs](#hardware-sdks)
 - [Visualization](#visualization)
 
@@ -31,6 +32,12 @@
 - [MoveIt 2](https://github.com/moveit/moveit2) - The standard ROS 2 motion planning framework for manipulators, used by OpenArm and reBot-DevArm (BSD-3-Clause).
 - [Nav2](https://github.com/ros-navigation/navigation2) - The ROS 2 navigation stack for mobile robots, from mapping to behavior trees (Apache-2.0, BSD-3-Clause and LGPL-2.1 by package).
 - [OMPL](https://github.com/ompl/ompl) - The Open Motion Planning Library of sampling-based planners that powers MoveIt (BSD-3-Clause).
+
+## SLAM and localization
+
+- [GTSAM](https://github.com/borglab/gtsam) - C++ factor-graph optimization library for SLAM, sensor fusion and state estimation, with Python bindings (BSD-3-Clause).
+- [RTAB-Map](https://github.com/introlab/rtabmap) - Graph-based RGB-D, stereo and LiDAR SLAM for 3D mapping and localization (BSD-3-Clause core).
+- [SLAM Toolbox](https://github.com/SteveMacenski/slam_toolbox) - ROS 2 toolkit for 2D LiDAR mapping, saved pose graphs and localization (LGPL-2.1).
 
 ## Hardware SDKs
 
