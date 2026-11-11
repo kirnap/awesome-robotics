@@ -39,6 +39,8 @@
 - [RTAB-Map](https://github.com/introlab/rtabmap) - Graph-based RGB-D, stereo and LiDAR SLAM for 3D mapping and localization (BSD-3-Clause core).
 - [SLAM Toolbox](https://github.com/SteveMacenski/slam_toolbox) - ROS 2 toolkit for 2D LiDAR mapping, saved pose graphs and localization (LGPL-2.1).
 
+For point-cloud processing and 3D reconstruction, see [perception.md](perception.md#point-clouds-and-3d-reconstruction).
+
 ## Hardware SDKs
 
 - [Reachy Mini SDK](https://github.com/pollen-robotics/reachy_mini) - Python and TypeScript SDK and simulation for Pollen Robotics' desktop robot; hardware files are CC BY-NC-SA, so it is not listed as open hardware (Apache-2.0).
